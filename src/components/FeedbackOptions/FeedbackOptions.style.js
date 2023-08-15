@@ -9,4 +9,8 @@ export const ButtonStyled = styled.button`
     color: white;
     background-color: blue;
   }
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
 `;
